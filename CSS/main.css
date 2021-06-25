@@ -10,7 +10,7 @@
 /*Fuente y tipografia*/
 :root {
   --body-font: 'Lexend Deca';
-  --h1-font-size: 6rem; }
+  --h1-font-size: 2rem; }
   @media screen and (min-width: 768px) {
     :root {
       --h1-font-size: 6rem; } }
@@ -251,6 +251,69 @@ img {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #f16056;
   color: white;
+}
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+
+
+/* unvisited link */
+a:link {
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  color: #fa7268;
+  
+    
+}
+
+/* visited link */
+a:visited {
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  color: green;
+  
+}
+
+/* mouse over link */
+a:hover {
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  color: #f0675d;
+  
+}
+
+/* selected link */
+a:active {
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  color: blue;
+  
 }
