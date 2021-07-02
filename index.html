@@ -132,7 +132,14 @@
 
 
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<body>
+    <script src="index.js"></script>
+    <script src="google-signin.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="343615569338-0m64l92out9h4d5sbmed4gsqagp3bcfm.apps.googleusercontent.com">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -154,8 +161,6 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
-<body>
-    
+  </script>
 </body>
 </html>
