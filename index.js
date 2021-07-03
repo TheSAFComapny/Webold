@@ -1,4 +1,4 @@
-firebase.auth().signInWithRedirect(google);
+firebase.auth().signInWithRedirect(provider);
 
 firebase.auth().signOut().then(() => {
     // Sign-out successful.
