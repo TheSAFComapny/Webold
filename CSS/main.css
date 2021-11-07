@@ -455,4 +455,14 @@
              width: 90%;
          }
       }
+   
       
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #fd4d4d;
+        color: white;
+        text-align: left;
+      }
