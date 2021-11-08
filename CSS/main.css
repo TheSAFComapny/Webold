@@ -471,3 +471,8 @@
       .fotterheader {
         padding: 100px;
       }
+
+      .fotterlefttext {
+        padding:100px ;
+        position:left
+      }
