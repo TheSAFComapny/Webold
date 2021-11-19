@@ -490,4 +490,5 @@
       .headerltext {
         text-align: right;
         padding: 100px;
+        position: top;
       }
